@@ -1,0 +1,32 @@
+body{
+    color:#000;
+    background-color:#FFF;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height:1.5em;
+}
+
+p{margin-bottom:1.5em;}
+
+.work{
+float:left;
+margin:15px;
+}
+
+.details {
+    float:left;
+    width:400px;
+    margin:15px;
+}
+
+dt{
+    font-family: Rokkitt, serif;
+    font-size:40px;
+    line-height:1.5em;
+}
+
+.client {
+    font-style:italic;
+    font-size:20px;
+    
+}

@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Fonts */
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('League_Gothic-webfont.eot');
+    src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('League_Gothic-webfont.woff') format('woff'),
+         url('League_Gothic-webfont.ttf') format('truetype'),
+         url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    
+/* Colors 
+#95aeaa - Light Muted Blue - Background
+#2d2d3c - Purple - Background
+#e0ddcd - Beige - Background
+#ff6b6b - Pink - Accent 
+*/
+
+
+body {
+	color:#000;
+	background:#e0ddcd url('../images/HomeBG.jpg') repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+    line-height:1.5em;
+    
+}
+
+p {padding-bottom:20px; line-height:1.5em;}
+
+#header {
+	height:79px;
+	width:100%;
+	background: url('../images/HeaderBG.png') repeat-x;
+	position:fixed;
+	z-index:5
+}
+
+.navigation {
+	width: 410px;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+}
+
+#footer a, .navigation a{
+	font-family: 'LeagueGothicRegular', Helvetica, Sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-decoration:none;
+	font-weight:normal;
+    text-transform:uppercase;
+	padding: 5px;
+    letter-spacing:1px;
+}
+
+#footer a:hover, .navigation a:hover{
+	color:#ff6b6b;
+}
+
+.logo {
+	position: relative;
+	top: 0px;
+    width:100px;
+    height:50px;
+    background:url('../images/OnionLogoTrans.png');
+    margin: 0 5px;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+/* Pages */
+
+#introduction {
+	height:600px;
+	width:100%;
+	padding: 80px 0 0 0;
+	
+}
+
+
+#portfolio {
+	min-height:800px;
+	width:100%;
+    padding-bottom:50px;
+	background: url('../images/BlueWaterPaperBG.jpg') #95aeaa;
+}
+
+
+#aboutMe {
+	min-height:800px;
+	width:100%;
+	background: #2d2d3c;
+}
+
+#contactMe {
+	min-height:800px;
+	width:100%;
+}
+
+
+#contactMe .bg {
+	width:800px;
+	display:block;
+	margin: 0 auto;
+	padding: 0px 0 30px 0;
+}
+
+#footer {
+	height:60px;
+	width:100%;
+	background: url('../images/FooterBG.png') repeat-x;
+
+	
+}
+
+
+#footer p{
+	text-align: center;
+	padding: 25px 0 0 0;
+}
+
+
+
+
+#introduction .balloonimg {
+	height:494px;
+	width:784px;
+	margin: 107px auto 0 auto;
+	background: url('../images/MeWithBalloon1.png') no-repeat bottom;
+
+}
+
+
+#introduction .balloon {
+	width:460px;
+	height:275px;
+	text-align:center;
+	padding: 100px 0 0 0px;
+}
+
+#introduction .balloon h3 {
+	font-family: 'Rokkitt', serif;
+	font-weight: 200;
+	font-size: 55px;
+    line-height:0.9;
+	
+}
+
+#introduction .balloon p {
+	font-family: 'LeagueGothicRegular', Helvetica, Sans-serif;
+	font-size: 48px;
+	padding: 30px 0 0 0px;
+	line-height:normal;
+}
+
+#introduction .balloonimg ul {
+	padding: 30px 0 0 0;
+	
+} 
+
+#introduction .balloonimg li  {
+	display:inline;
+}
+
+#introduction .balloonimg li a {
+	font-family: 'LeagueGothicRegular', Helvetica, Sans-serif;
+	font-size: 30px;
+	color: #000;
+	text-decoration:none;
+	font-weight:normal;
+	padding: 0px 50px 0px 50px;
+}
+
+#introduction .balloonimg li a:hover {
+	font-style:italic;
+	}
+
+#portfolio h2, #contactMe h2 {
+	color:#000;
+	font-family: 'Rokkitt', serif;
+	font-size:60px;
+    line-height:1em;
+	font-weight:normal;
+	text-align: center;
+	padding: 100px 0 50px 0;
+}
+
+#aboutMe h2 {
+	color:#FFF;
+	font-family: 'Rokkitt', serif;
+	font-size:60px;
+    line-height:1em;
+	font-weight:normal;
+	text-align: center;
+	padding: 100px 0 50px 0;
+}
+
+#aboutMe p {color:#FFF;}
+
+#portfolio .gallery {
+	width:1000px;
+	height:100%;
+	margin: 0 auto;
+	padding: 0 0 30px 0;
+}
+
+#portfolio  .gallery li {
+	display: inline;
+}
+
+#portfolio  .gallery li img {
+	width: 300px;
+	height: 200px;
+	background: url('../images/DiagonalLinesBG.png') #F4F4F4;
+	border: 1px solid #dbdbdb;
+	margin:5px;
+	padding:8px;
+}
+
+
+.box{
+	width:820px;
+	margin: 0 auto;
+}
+
+.abouttext {
+	width:850px;
+	margin: 0 auto;
+}
+
+#contact-form {
+	width:460px;
+	font-family:'LeagueGothicRegular', Helvetica, Sans-serif;
+	font-size: 30px;
+	margin: 0 auto;
+}
+
+input {
+	width:458px;
+	height: 56px;
+	background: url('../images/TextInput.png') no-repeat;
+	font-family: georgia, sans-serif;
+	font-size: 20px;
+	margin:0px;
+	padding: 0 0 20px 10px;
+	border:0;
+}
+
+input#form-submit{
+    background-color:#000;
+    color:#FFF;
+    font-size: 30px;
+    font-family:'LeagueGothicRegular', Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+input#form-submit:hover{
+    background-color:#444;
+}
+
+input#form-submit:active{
+    background-color:#ff6b6b;
+}
+
+textarea {
+	width:445px;
+	height: 285px;
+	background: url('../images/TextArea.png') no-repeat;
+	font-family: georgia, sans-serif;
+	font-size: 20px;
+	margin:0px;
+	padding: 20px 0 0 10px;
+	border:0;
+	resize:none;
+}
+
+.error{
+    color:red;
+}
+
+.success {
+    color:green;
+}
+.portrait {
+	float:right;
+}
